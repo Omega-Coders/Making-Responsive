@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration</h1>
+        <p>Register to start marking your attendance!</p>
+        <form>
+            <div class="row">
+                <div class="column">
+                    <label for="name">FullName</label>
+                    <input type="text" id="name" placeholder="Your name here">
+                </div>
+                <div class="column">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email here">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="subject">Department</label>
+                 <select id="cars" name="cars">
+                  <option value="CSE">CSE</option>
+                  <option value="AI&DS">AI&DS</option>
+                    <option value="IT">IT</option>
+                  <option value="ECE">ECE</option>
+                </select>
+                </div>
+                <div class="column">
+                    <label for="contact">Section</label>
+                   <select id="Department" name="Department">
+                  <option value="A">A</option>
+                  <option value="B">B</option>
+                    <option value="C">C</option>
+                  <option value="D">D</option>
+                </select>
+                </div>
+            </div>
+              <div class="row">
+                <div class="column">
+                    <label for="subject">Password</label>
+                    <input type="text" id="subject" placeholder="Your password here">
+                </div>
+                <div class="column">
+                    <label for="subject">confirm password</label>
+                    <input type="text" id="subject" placeholder="Your confirmed password here">
+                </div>
+            </div>
+           
+            <button>Register</button>
+        </form>
+    </div>
+</body>
+</html>
